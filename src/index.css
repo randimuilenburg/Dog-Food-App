@@ -1,0 +1,53 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+/* box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04),
+    0 3px 6px 0 rgba(25, 32, 36, 0.16);
+  transition: 0.3s;
+  border-radius: 8px;
+} */
+
+/* On mouse-over, add a deeper shadow */
+/* .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+} */
+
+/* Add some padding inside the card container */
+/* .container {
+  padding: 2px 16px;
+} */
+
+/* html,
+body,
+#root,
+.App {
+  height: 100%;
+} */
+
+/* .logos {
+  height: 100px;
+  width: 85px;
+  text-align: center;
+} */
+
+/* .logoimg {
+  float: left;
+  width: "10%";
+} */
+
+/* .logoheader {
+  float: right;
+} */
