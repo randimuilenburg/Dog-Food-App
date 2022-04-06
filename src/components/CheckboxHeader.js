@@ -3,7 +3,7 @@ import React from "react";
 const filterByGrains = () => {
   return (
     <div style={styling} className="Brands">
-      <p>Filter by Grain Type</p>
+      <p>Sort by Grain Preference</p>
     </div>
   );
 };
