@@ -27,7 +27,8 @@ function BrandCards(props) {
           <h4 className="logoheader">{props.name}</h4>
           {isShown && (
             <div>
-              <p className="onHover">{props.alliance}</p>
+              {/* <p className="onHover">{props.alliance}</p> */}
+              <p className="onHover">{props.hasGrains}</p>
               <p className="onHover">{props.phone}</p>
               <p className="onHoverSite">{props.site}</p>
             </div>

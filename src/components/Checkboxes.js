@@ -1,7 +1,7 @@
 import React from "react";
-import Card from "./Card";
-import Cards from "./Cards";
-import ReactDOM from "react-dom";
+// import Card from "./Card";
+// import Cards from "./Cards";
+// import ReactDOM from "react-dom";
 // import { fontFamily } from "react-bootstrap";
 
 const boxOptions = (props) => {
@@ -16,6 +16,9 @@ const boxOptions = (props) => {
             type="checkbox"
             style={boxStyle}
             key={`input-${x.abbrev}`}
+            // onChange={
+            //   props.name["Grain-Free"] === isChecked ? props.name : props.name
+            // }
           ></input>
         </div>
       ))}{" "}

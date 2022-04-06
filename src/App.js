@@ -21,7 +21,7 @@ function App() {
         boxOptions={checkboxObjs}
       />
       <Cards
-        airlineData={tempData}
+        dogFoodBrandData={tempData}
         style={{ display: "flex", flexWrap: "wrap" }}
       />
     </div>
@@ -37,10 +37,10 @@ let checkboxObjs = [
     name: "Grain-Inclusive",
     isChecked: false,
   },
-  {
-    name: "Available in Both",
-    isChecked: false,
-  },
+  // {
+  //   name: "Available in Both",
+  //   isChecked: false,
+  // },
 ];
 
 let tempData = [
@@ -50,6 +50,7 @@ let tempData = [
     // alliance: "Grain-Inclusive and Grain-Free",
     isGrainFree: true,
     isGrainInclusive: true,
+    hasGrains: "Grain-inclusive brand!",
     phone: "+1 800-664-7387",
     name: "Merrick",
   },
@@ -59,6 +60,7 @@ let tempData = [
     // alliance: "Grain-Inclusive and Grain-Free",
     isGrainFree: true,
     isGrainInclusive: true,
+    hasGrains: "Grain-inclusive brand!",
     phone: "+1 800-919-2833 ",
     name: "Blue Buffalo",
   },
@@ -68,6 +70,7 @@ let tempData = [
     // alliance: "Grain-Inclusive and Grain-Free",
     isGrainFree: true,
     isGrainInclusive: true,
+    hasGrains: "Grain-inclusive brand!",
     phone: "+1 888-477-8977",
     name: "Stella and Chewy's",
   },
@@ -86,6 +89,7 @@ let tempData = [
     // alliance: "Grain-Free and Grain-Inclusive",
     isGrainFree: true,
     isGrainInclusive: true,
+    hasGrains: "Grain-inclusive brand!",
     phone: "+1 800-829-4493",
     name: "Natural Balance",
   },
@@ -96,6 +100,7 @@ let tempData = [
     // alliance: "Grain-Free and Grain-Inclusive",
     isGrainFree: true,
     isGrainInclusive: true,
+    hasGrains: "Grain-inclusive brand!",
     phone: "+1 800-525-9155",
     name: "NutriSource",
   },
@@ -105,6 +110,7 @@ let tempData = [
     // alliance: "Grain-Inclusive",
     isGrainFree: false,
     isGrainInclusive: true,
+    hasGrains: "Grain-inclusive brand!",
     phone: "Message Form Only",
     name: "VetDiet",
   },
@@ -114,6 +120,7 @@ let tempData = [
     // alliance: "Grain-Free and Grain-Inclusive",
     isGrainFree: true,
     isGrainInclusive: true,
+    hasGrains: "Grain-inclusive brand!",
     phone: "+1 800-325-6331",
     name: "Fromm",
   },
@@ -123,6 +130,7 @@ let tempData = [
     // alliance: "Grain-Free and Grain-Inclusive",
     isGrainFree: true,
     isGrainInclusive: true,
+    hasGrains: "Grain-inclusive brand!",
     phone: "Message Form Only",
     name: "Earthborn",
   },
@@ -132,6 +140,7 @@ let tempData = [
     // alliance: "Grain-Free and Grain-Inclusive",
     isGrainFree: true,
     isGrainInclusive: true,
+    hasGrains: "Grain-inclusive brand!",
     phone: "+1 800-342-4808",
     name: "Taste of the Wild",
   },
@@ -141,6 +150,7 @@ let tempData = [
     // alliance: "Grain-Free and Grain-Inclusive",
     isGrainFree: true,
     isGrainInclusive: true,
+    hasGrains: "Grain-inclusive brand!",
     phone: "+1 833-399-3403",
     name: "Open Farm",
   },
@@ -150,6 +160,7 @@ let tempData = [
     // alliance: "Grain-Free and Grain-Inclusive",
     isGrainFree: true,
     isGrainInclusive: true,
+    hasGrains: "Grain-inclusive brand!",
     phone: "Message Form Only",
     name: "Farmina",
   },
